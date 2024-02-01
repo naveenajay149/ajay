@@ -1,0 +1,42 @@
+Q1: What is Python?
+A1: Python is a high-level, interpreted programming language known for its readability and simplicity. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+
+Q2: How is memory managed in Python?
+A2: Python uses automatic memory management, and the memory allocation and deallocation are handled by the Python memory manager. The core component for this is the "Python memory allocator," which manages the heap space.
+
+Q3: What is the difference between a list and a tuple in Python?
+A3: Both lists and tuples are used to store collections of items, but the main difference is that lists are mutable (can be changed), while tuples are immutable (cannot be changed after creation).
+
+Q4: How do you comment in Python?
+A4: In Python, you can use the # symbol to write comments. Everything following the # on that line is considered a comment and is ignored by the interpreter.
+
+python
+Copy code
+# This is a comment
+print("Hello, World!")
+Q5: Explain the concept of list comprehension.
+A5: List comprehension is a concise way to create lists in Python. It provides a more readable and compact syntax for creating lists compared to using loops. The basic syntax is:
+
+python
+Copy code
+new_list = [expression for item in iterable if condition]
+For example:
+
+python
+Copy code
+squared_numbers = [x**2 for x in range(5) if x % 2 == 0]
+# Result: [0, 4, 16]
+Q6: What is the purpose of the __init__ method in Python classes?
+A6: The __init__ method is a special method in Python classes. It is called when an object is created from a class and is used to initialize the object's attributes. It is also known as the constructor method.
+
+python
+Copy code
+class MyClass:
+    def __init__(self, attribute1, attribute2):
+        self.attribute1 = attribute1
+        self.attribute2 = attribute2
+
+# Usage
+obj = MyClass("value1", "value2")
+Q7: Explain the difference between == and is in Python.
+**
